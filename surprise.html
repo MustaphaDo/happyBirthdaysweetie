@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irem's Magical Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1 class="main-title">💖 Happy Birthday, Irem 💖</h1>
+    <img src="assets/irem.jpg" class="photo" alt="Irem's Photo"/>
+    <div class="message-box" id="messageBox" onclick="showNextMessage()">
+      <p id="messageText">Click anywhere to reveal something beautiful...</p>
+    </div>
+    <audio id="bgMusic" src="assets/happy_birthday.mp3" autoplay loop></audio>
+  </div>
+  <script src="effects.js"></script>
+</body>
+</html>

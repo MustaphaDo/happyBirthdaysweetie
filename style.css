@@ -1,0 +1,88 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kalam', cursive;
+  overflow: hidden;
+  background: linear-gradient(to top right, #1a0028, #3a0048);
+  color: #fff;
+}
+.intro-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(#2a003f, #000);
+}
+.intro-content {
+  text-align: center;
+}
+.intro-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #ff99cc;
+}
+.intro-text {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+button {
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 10px;
+  background: #ff66cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #ff33aa;
+}
+canvas#bgCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.overlay {
+  background-size: cover;
+  opacity: 0.08;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 40px 20px;
+}
+.main-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  color: #ff99cc;
+  margin-bottom: 20px;
+}
+.photo {
+  width: 200px;
+  border-radius: 15px;
+  border: 4px solid white;
+  box-shadow: 0 0 20px #ff99cc;
+  margin-bottom: 20px;
+}
+.message-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.8;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+}
